@@ -1,0 +1,25 @@
+ #set mouseClass "Change1" 
+ #set mouseClicked "Change2" 
+                                                                         
+      getlex              QName(PackageNamespace("", "#0"), "map_")
+      getproperty         QName(PackageNamespace(""), "gs_")
+      getproperty         QName(PackageNamespace(""), "mui_")
+      getproperty         QName(PrivateNamespace("*", $"mouseClass"), $"mouseClicked")   
+	  iftrue              SKIPNOWALK                                       
+                                                                         
+      getlocal3
+      getproperty        QName(PackageNamespace(""), "props_")     
+      getproperty        QName(PackageNamespace(""), "maxDamage_")
+      pushbyte            0                                              
+      ifeq             SKIPNOWALK                                                  
+                                    
+      getlocal3                                                          
+      getproperty        QName(PackageNamespace(""), "obj_")      
+      pushnull                                                           
+      ifne                SKIPNOWALK   
+                                                                        
+      pushfalse                                                          
+      returnvalue      
+      
+      
+SKIPNOWALK:  

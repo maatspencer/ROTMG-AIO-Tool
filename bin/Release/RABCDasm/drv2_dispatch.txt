@@ -1,0 +1,50 @@
+;_-names
+#set keyCodes "CHANGE1" ;Search for "testTwo". Its in util
+
+;code
+      getlocal1
+      getproperty         QName(PackageNamespace(""), "keyCode")
+      getlex              QName(PackageNamespace("com.company.util"), $"keyCodes")
+      getproperty         QName(PackageNamespace(""), "CHANGE2")
+      ifne                RECON
+
+      getlex              QName(PackageNamespace(""), "recon")
+      pushnull
+      ifeq                RECON
+
+      getlex              QName(PackageNamespace(""), "recon")
+      getlocal0
+      getproperty         QName(PackageNamespace(""), "gs_")
+      getproperty         QName(PackageNamespace(""), "gsc_")
+      getproperty         QName(PackageNamespace(""), "charId_")
+      setproperty         QName(PackageNamespace(""), "charId_")
+
+      getlocal0
+      getproperty         QName(PackageNamespace(""), "gs_")
+      getlex              QName(PackageNamespace(""), "recon")
+      callpropvoid        QName(PackageNamespace(""), "dispatchEvent"), 1
+
+RECON:
+      getlocal1
+      getproperty         QName(PackageNamespace(""), "keyCode")
+      getlex              QName(PackageNamespace("com.company.util"), $"keyCodes")
+      getproperty         QName(PackageNamespace(""), "CHANGE3")
+      ifne                DRECON
+
+      getlex              QName(PackageNamespace(""), "drecon")
+      pushnull
+      ifeq                DRECON
+
+      getlex              QName(PackageNamespace(""), "drecon")
+      getlocal0
+      getproperty         QName(PackageNamespace(""), "gs_")
+      getproperty         QName(PackageNamespace(""), "gsc_")
+      getproperty         QName(PackageNamespace(""), "charId_")
+      setproperty         QName(PackageNamespace(""), "charId_")
+
+      getlocal0
+      getproperty         QName(PackageNamespace(""), "gs_")
+      getlex              QName(PackageNamespace(""), "drecon")
+      callpropvoid        QName(PackageNamespace(""), "dispatchEvent"), 1
+
+DRECON:

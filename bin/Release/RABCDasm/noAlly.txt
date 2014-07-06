@@ -1,0 +1,18 @@
+; _-names
+#set ownBullet "Change1"
+
+; code
+      getlex              QName(PackageNamespace(""), "map_")
+      getproperty         QName(PackageNamespace(""), "player_")
+      getproperty         QName(PackageNamespace(""), "objectId_")
+      getlocal0
+      getproperty         QName(PackageNamespace(""), "ownerId_")
+      ifeq                L500_
+
+      getlocal0
+      getproperty         QName(PackageNamespace(""), $"ownBullet")
+      iffalse             L500_
+
+      returnvoid
+
+L500_:

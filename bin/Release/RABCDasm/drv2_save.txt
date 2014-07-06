@@ -1,0 +1,33 @@
+;_-names
+#set hotkeyClass "CHANGE1" ;found in com/company/assembleegameclient/game/_-name . Search "clearInput". Added into class with trat slot "outstandingBuy_"
+
+;code
+      getlocal1
+      getproperty         QName(PackageNamespace(""), "name_")
+      pushstring          "Nexus"
+      ifeq                SKIP
+
+; Skip Vault 
+	  getlocal1
+	  getproperty         QName(PackageNamespace(""), "name_")
+	  coerce_s
+	  pushstring          "NexusPortal."
+	  callproperty	      QName(Namespace("http://adobe.com/AS3/2006/builtin"), "search"), 1
+	  pushint             0
+      ifge                RECON	  
+	  
+	  jump DRECON
+	  
+RECON:
+      getlex              QName(PackageNamespace("com.company.assembleegameclient.game"), $"hotkeyClass")
+      getlocal            8 ;<-- may need updated
+      setproperty         QName(PackageNamespace(""), "recon")
+	  
+	  jump                SKIP
+	  
+DRECON:
+      getlex              QName(PackageNamespace("com.company.assembleegameclient.game"), $"hotkeyClass")
+      getlocal            8 ;<-- may need updated
+      setproperty         QName(PackageNamespace(""), "drecon")
+	  
+SKIP:

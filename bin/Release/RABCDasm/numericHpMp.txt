@@ -1,0 +1,2 @@
+      pop
+      pushbyte 1
