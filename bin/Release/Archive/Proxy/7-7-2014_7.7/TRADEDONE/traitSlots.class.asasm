@@ -1,0 +1,2 @@
+  trait slot QName(PackageNamespace("", "#0"), "code_") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "description_") type QName(PackageNamespace("", "#0"), "String") end

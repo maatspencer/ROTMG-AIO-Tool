@@ -1,0 +1,290 @@
+class
+ refid "_-0Fp:_-0oC"
+ instance QName(PackageNamespace("_-0Fp"), "_-0oC")
+  extends QName(PackageNamespace("_-0Fp"), "_-0v1")
+  flag SEALED
+  flag PROTECTEDNS
+  protectedns ProtectedNamespace("_-kC")
+  iinit
+   refid "_-0Fp:_-0oC/instance/init"
+   param QName(PackageNamespace("", "#0"), "uint")
+   param QName(PackageNamespace("", "#0"), "Function")
+   body
+    maxstack 5
+    localcount 5
+    initscopedepth 6
+    maxscopedepth 7
+    code
+     getlocal0
+     pushscope
+
+     getlocal0
+     getlex              Multiname("Vector", [PrivateNamespace("*", "_-0Fp:_-0oC/instance"), PrivateNamespace("*", "_-0Fp:_-0oC/instance/init"), PackageNamespace("", "#0"), PackageNamespace("_-0Fp"), PackageInternalNs("_-0Fp"), Namespace("http://adobe.com/AS3/2006/builtin"), ProtectedNamespace("_-kC"), StaticProtectedNs("_-kC"), StaticProtectedNs("const"), StaticProtectedNs("_-L1"), PackageNamespace("__AS3__.vec")])
+     getlex              QName(PackageNamespace("", "#0"), "String")
+     applytype           1
+     construct           0
+     initproperty        QName(PackageNamespace("", "#0"), "clientXML_")
+
+     getlocal0
+     getlex              Multiname("Vector", [PrivateNamespace("*", "_-0Fp:_-0oC/instance"), PrivateNamespace("*", "_-0Fp:_-0oC/instance/init"), PackageNamespace("", "#0"), PackageNamespace("_-0Fp"), PackageInternalNs("_-0Fp"), Namespace("http://adobe.com/AS3/2006/builtin"), ProtectedNamespace("_-kC"), StaticProtectedNs("_-kC"), StaticProtectedNs("const"), StaticProtectedNs("_-L1"), PackageNamespace("__AS3__.vec")])
+     getlex              QName(PackageNamespace("", "#0"), "String")
+     applytype           1
+     construct           0
+     initproperty        QName(PackageNamespace("", "#0"), "extraXML_")
+
+     getlocal0
+     getlocal1
+     getlocal2
+     constructsuper      2
+
+     returnvoid
+    end ; code
+   end ; body
+  end ; method
+  trait slot QName(PackageNamespace("", "#0"), "width_") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "height_") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "name_") type QName(PackageNamespace("", "#0"), "String") end
+  trait slot QName(PackageNamespace("", "#0"), "_-0-0") type QName(PackageNamespace("", "#0"), "String") end
+  trait slot QName(PackageNamespace("", "#0"), "_-3X") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "fp_") type QName(PackageNamespace("", "#0"), "uint") end
+  trait slot QName(PackageNamespace("", "#0"), "background_") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "allowPlayerTeleport_") type QName(PackageNamespace("", "#0"), "Boolean") end
+  trait slot QName(PackageNamespace("", "#0"), "showDisplays_") type QName(PackageNamespace("", "#0"), "Boolean") end
+  trait slot QName(PackageNamespace("", "#0"), "clientXML_") type TypeName(QName(PackageNamespace("__AS3__.vec"), "Vector")<QName(PackageNamespace("", "#0"), "String")>) end
+  trait slot QName(PackageNamespace("", "#0"), "extraXML_") type TypeName(QName(PackageNamespace("__AS3__.vec"), "Vector")<QName(PackageNamespace("", "#0"), "String")>) end
+  trait method QName(PackageNamespace("", "#0"), "parseFromInput") flag OVERRIDE
+   method
+    refid "_-0Fp:_-0oC/instance/parseFromInput"
+    param QName(PackageNamespace("flash.utils"), "IDataInput")
+    returns QName(PackageNamespace("", "#0"), "void")
+    body
+     maxstack 4
+     localcount 4
+     initscopedepth 6
+     maxscopedepth 7
+     code
+      getlocal0
+      pushscope
+
+      getlocal0
+      getlocal1
+      callpropvoid        QName(PrivateNamespace("*", "_-0Fp:_-0oC/instance"), "_-1p9"), 1
+
+      getlocal0
+      getlocal1
+      callpropvoid        QName(PrivateNamespace("*", "_-0Fp:_-0oC/instance"), "_-107"), 1
+
+      returnvoid
+     end ; code
+    end ; body
+   end ; method
+  end ; trait
+  trait method QName(PrivateNamespace("*", "_-0Fp:_-0oC/instance"), "_-1p9")
+   method
+    refid "_-0Fp:_-0oC/instance/_-0Fp:_-0oC/instance/_-1p9"
+    param QName(PackageNamespace("flash.utils"), "IDataInput")
+    returns QName(PackageNamespace("", "#0"), "void")
+    body
+     maxstack 4
+     localcount 4
+     initscopedepth 6
+     maxscopedepth 7
+     code
+      getlocal0
+      pushscope
+
+      getlocal0
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readInt"), 0
+      initproperty        QName(PackageNamespace("", "#0"), "width_")
+
+      getlocal0
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readInt"), 0
+      initproperty        QName(PackageNamespace("", "#0"), "height_")
+
+      getlocal0
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readUTF"), 0
+      initproperty        QName(PackageNamespace("", "#0"), "name_")
+
+      getlocal0
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readUTF"), 0
+      initproperty        QName(PackageNamespace("", "#0"), "_-0-0")
+
+      getlocal0
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readUnsignedInt"), 0
+      initproperty        QName(PackageNamespace("", "#0"), "fp_")
+
+      getlocal0
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readInt"), 0
+      initproperty        QName(PackageNamespace("", "#0"), "background_")
+
+      getlocal0
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readInt"), 0
+      initproperty        QName(PackageNamespace("", "#0"), "_-3X")
+
+      getlocal0
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readBoolean"), 0
+      initproperty        QName(PackageNamespace("", "#0"), "allowPlayerTeleport_")
+
+      getlocal0
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readBoolean"), 0
+      initproperty        QName(PackageNamespace("", "#0"), "showDisplays_")
+
+      returnvoid
+     end ; code
+    end ; body
+   end ; method
+  end ; trait
+  trait method QName(PrivateNamespace("*", "_-0Fp:_-0oC/instance"), "_-107")
+   method
+    refid "_-0Fp:_-0oC/instance/_-0Fp:_-0oC/instance/_-107"
+    param QName(PackageNamespace("flash.utils"), "IDataInput")
+    returns QName(PackageNamespace("", "#0"), "void")
+    body
+     maxstack 5
+     localcount 7
+     initscopedepth 6
+     maxscopedepth 7
+     code
+      getlocal0
+      pushscope
+
+      pushbyte            0
+      setlocal2
+
+      pushbyte            0
+      setlocal3
+
+      pushbyte            0
+      setlocal            4
+
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readShort"), 0
+      convert_i
+      setlocal2
+
+      getlocal0
+      getproperty         QName(PackageNamespace("", "#0"), "clientXML_")
+      pushbyte            0
+      setproperty         QName(PackageNamespace("", "#0"), "length")
+
+      pushbyte            0
+      setlocal3
+
+      jump                L31
+
+L19:
+      label
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readInt"), 0
+      convert_i
+      setlocal            4
+
+      getlocal0
+      getproperty         QName(PackageNamespace("", "#0"), "clientXML_")
+      getlocal1
+      getlocal            4
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readUTFBytes"), 1
+      callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+      inclocal_i          3
+L31:
+      getlocal3
+      getlocal2
+      iflt                L19
+
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readShort"), 0
+      convert_i
+      setlocal2
+
+      getlocal0
+      getproperty         QName(PackageNamespace("", "#0"), "extraXML_")
+      pushbyte            0
+      setproperty         QName(PackageNamespace("", "#0"), "length")
+
+      pushbyte            0
+      setlocal3
+
+      jump                L57
+
+L45:
+      label
+      getlocal1
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readInt"), 0
+      convert_i
+      setlocal            4
+
+      getlocal0
+      getproperty         QName(PackageNamespace("", "#0"), "extraXML_")
+      getlocal1
+      getlocal            4
+      callproperty        QName(Namespace("flash.utils:IDataInput"), "readUTFBytes"), 1
+      callpropvoid        QName(Namespace("http://adobe.com/AS3/2006/builtin"), "push"), 1
+
+      inclocal_i          3
+L57:
+      getlocal3
+      getlocal2
+      iflt                L45
+
+      returnvoid
+     end ; code
+    end ; body
+   end ; method
+  end ; trait
+  trait method QName(PackageNamespace("", "#0"), "toString") flag OVERRIDE
+   method
+    refid "_-0Fp:_-0oC/instance/toString"
+    returns QName(PackageNamespace("", "#0"), "String")
+    body
+     maxstack 13
+     localcount 1
+     initscopedepth 6
+     maxscopedepth 7
+     code
+      getlocal0
+      pushscope
+
+      findpropstrict      QName(ProtectedNamespace("_-L1"), "formatToString")
+      pushstring          "MAPINFO"
+      pushstring          "width_"
+      pushstring          "height_"
+      pushstring          "name_"
+      pushstring          "fp_"
+      pushstring          "background_"
+      pushstring          "allowPlayerTeleport_"
+      pushstring          "showDisplays_"
+      pushstring          "clientXML_"
+      pushstring          "extraXML_"
+      callproperty        QName(ProtectedNamespace("_-L1"), "formatToString"), 10
+      returnvalue
+     end ; code
+    end ; body
+   end ; method
+  end ; trait
+ end ; instance
+ cinit
+  refid "_-0Fp:_-0oC/class/init"
+  body
+   maxstack 3
+   localcount 1
+   initscopedepth 5
+   maxscopedepth 6
+   code
+    getlocal0
+    pushscope
+
+    returnvoid
+   end ; code
+  end ; body
+ end ; method
+end ; class

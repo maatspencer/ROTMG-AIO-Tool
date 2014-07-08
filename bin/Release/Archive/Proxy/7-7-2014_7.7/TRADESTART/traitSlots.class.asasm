@@ -1,0 +1,3 @@
+  trait slot QName(PackageNamespace("", "#0"), "myItems_") type TypeName(QName(PackageNamespace("__AS3__.vec"), "Vector")<QName(PackageNamespace("_-0YH"), "_-1Fy")>) end
+  trait slot QName(PackageNamespace("", "#0"), "yourName_") type QName(PackageNamespace("", "#0"), "String") end
+  trait slot QName(PackageNamespace("", "#0"), "yourItems_") type TypeName(QName(PackageNamespace("__AS3__.vec"), "Vector")<QName(PackageNamespace("_-0YH"), "_-1Fy")>) end

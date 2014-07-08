@@ -126,4 +126,58 @@ Public Class packetIDS
             packetClasses.Close()
         End Try
     End Sub
+    ' Format Packets
+    Public Shared Sub formatPackets(location As String)
+        ' Check to see if formatting is used
+        Dim Setting As ArrayList = My.Settings.proxyUtilText
+        If Setting.Count <> 8 Then
+            Exit Sub
+        End If
+
+        ' Variables
+        myFile = location & "\packetID.txt"
+        newFile = location & "\packetTemp.txt"
+        count = 1
+        currentLine = ""
+        Dim writer As StreamWriter = New StreamWriter(newFile, False)
+
+        ' Write Header
+        If Setting(1) <> "" Then
+            writer.WriteLine(Setting(1))
+        End If
+        If Setting(2) <> "" Then
+            writer.WriteLine(Setting(2))
+        End If
+
+
+        ' Write the Packets to a Text File
+        Using sr As StreamReader = New StreamReader(myFile)
+            currentLine = sr.ReadLine
+            Do While (Not currentLine Is Nothing)
+                Dim name As String = currentLine.Split("=")(0)
+                Dim id As String = currentLine.Split("=")(1)
+                writer.WriteLine(Setting(3).ToString & name & Setting(4).ToString & id & Setting(5).ToString)
+
+                currentLine = sr.ReadLine
+                count = count + 1
+            Loop
+        End Using
+
+        'Write Footer
+        If Setting(6) <> "" Then
+            writer.WriteLine(Setting(6))
+        End If
+        If Setting(7) <> "" Then
+            writer.WriteLine(Setting(7))
+        End If
+
+        writer.Flush()
+        writer.Close()
+
+        ' Rename File
+        My.Computer.FileSystem.RenameFile(newFile, Setting(0).ToString)
+
+        ' Delete old file
+        My.Computer.FileSystem.DeleteFile(myFile)
+    End Sub
 End Class

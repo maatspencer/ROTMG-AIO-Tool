@@ -43,26 +43,17 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ROTMG All in One Tool.exe" size="4551680">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ROTMG All in One Tool.exe" size="4613120">
       <assemblyIdentity name="ROTMG All in One Tool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>4W7sYW+mjNYibRePMYnWFEIYhWg=</dsig:DigestValue>
+        <dsig:DigestValue>idM26m0gkWRZrqmq8BBVDu2jZyk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="favicon.ico" size="15086">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>5+S9bKo7IrnSFG35oALIP1Bjo8Y=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="Icon.ico" size="594447">
     <hash>
       <dsig:Transforms>
@@ -72,13 +63,13 @@
       <dsig:DigestValue>SuPSurjtrbAF23edcbe/k+X/fy4=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ROTMG All in One Tool.exe.config" size="2606">
+  <file name="ROTMG All in One Tool.exe.config" size="2997">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>yF0DVhqTPXLeeKalWime8cbrWNg=</dsig:DigestValue>
+      <dsig:DigestValue>R/naAUIKN0y2va0n+XP5fbol7nA=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

@@ -95,8 +95,16 @@ Public Class proxyUtility
         ' Move temp to Proxy
         My.Computer.FileSystem.RenameDirectory(Application.StartupPath & "/temp", "Proxy")
 
+        ' Format Packets File
+        packetIDS.formatPackets(fileLocation)
+
         ' Open Proxy Folder
         Process.Start(fileLocation)
+        Me.Close()
+    End Sub
+    ' Open Setting
+    Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
+        proxyUtilitySettings.Show()
         Me.Close()
     End Sub
 End Class

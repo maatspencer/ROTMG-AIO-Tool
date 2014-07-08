@@ -1,0 +1,4 @@
+  trait slot QName(PackageNamespace("", "#0"), "time_") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "slotObject_") type QName(PackageNamespace("_-0YH"), "_-6o") end
+  trait slot QName(PackageNamespace("", "#0"), "itemUsePos_") type QName(PackageNamespace("_-0YH"), "_-5y") end
+  trait slot QName(PackageNamespace("", "#0"), "useType_") type QName(PackageNamespace("", "#0"), "int") end

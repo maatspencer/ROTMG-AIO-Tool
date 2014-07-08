@@ -1,0 +1,6 @@
+  trait slot QName(PackageNamespace("", "#0"), "pos_") type QName(PackageNamespace("_-0YH"), "_-5y") end
+  trait slot QName(PackageNamespace("", "#0"), "radius_") type QName(PackageNamespace("", "#0"), "Number") end
+  trait slot QName(PackageNamespace("", "#0"), "damage_") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "effect_") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "duration_") type QName(PackageNamespace("", "#0"), "Number") end
+  trait slot QName(PackageNamespace("", "#0"), "origType_") type QName(PackageNamespace("", "#0"), "int") end

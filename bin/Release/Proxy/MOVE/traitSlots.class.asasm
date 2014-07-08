@@ -1,0 +1,4 @@
+  trait slot QName(PackageNamespace("", "#0"), "tickId_") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "time_") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "newPosition_") type QName(PackageNamespace("_-0YH"), "_-5y") end
+  trait slot QName(PackageNamespace("", "#0"), "records_") type TypeName(QName(PackageNamespace("__AS3__.vec"), "Vector")<QName(PackageNamespace("_-0YH"), "_-0LC")>) end

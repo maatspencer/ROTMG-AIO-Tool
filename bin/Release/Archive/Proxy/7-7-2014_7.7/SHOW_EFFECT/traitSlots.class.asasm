@@ -1,0 +1,5 @@
+  trait slot QName(PackageNamespace("", "#0"), "effectType_") type QName(PackageNamespace("", "#0"), "uint") end
+  trait slot QName(PackageNamespace("", "#0"), "targetObjectId_") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "pos1_") type QName(PackageNamespace("_-0YH"), "_-5y") end
+  trait slot QName(PackageNamespace("", "#0"), "pos2_") type QName(PackageNamespace("_-0YH"), "_-5y") end
+  trait slot QName(PackageNamespace("", "#0"), "color_") type QName(PackageNamespace("", "#0"), "int") end

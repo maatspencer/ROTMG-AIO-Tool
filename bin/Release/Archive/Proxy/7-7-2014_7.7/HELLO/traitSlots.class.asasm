@@ -1,0 +1,13 @@
+  trait slot QName(PackageNamespace("", "#0"), "buildVersion_") type QName(PackageNamespace("", "#0"), "String") end
+  trait slot QName(PackageNamespace("", "#0"), "gameId_") type QName(PackageNamespace("", "#0"), "int") value Integer(0) end
+  trait slot QName(PackageNamespace("", "#0"), "guid_") type QName(PackageNamespace("", "#0"), "String") end
+  trait slot QName(PackageNamespace("", "#0"), "password_") type QName(PackageNamespace("", "#0"), "String") end
+  trait slot QName(PackageNamespace("", "#0"), "secret_") type QName(PackageNamespace("", "#0"), "String") end
+  trait slot QName(PackageNamespace("", "#0"), "keyTime_") type QName(PackageNamespace("", "#0"), "int") value Integer(0) end
+  trait slot QName(PackageNamespace("", "#0"), "key_") type QName(PackageNamespace("flash.utils"), "ByteArray") end
+  trait slot QName(PackageNamespace("", "#0"), "_-Z2") type QName(PackageNamespace("", "#0"), "String") end
+  trait slot QName(PackageNamespace("", "#0"), "_-LR") type QName(PackageNamespace("", "#0"), "String") value Utf8("") end
+  trait slot QName(PackageNamespace("", "#0"), "_-0JZ") type QName(PackageNamespace("", "#0"), "String") value Utf8("") end
+  trait slot QName(PackageNamespace("", "#0"), "_-1fu") type QName(PackageNamespace("", "#0"), "String") value Utf8("") end
+  trait slot QName(PackageNamespace("", "#0"), "_-mD") type QName(PackageNamespace("", "#0"), "String") value Utf8("") end
+  trait slot QName(PackageNamespace("", "#0"), "_-0mN") type QName(PackageNamespace("", "#0"), "String") value Utf8("") end

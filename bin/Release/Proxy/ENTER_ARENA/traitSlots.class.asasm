@@ -1,0 +1,1 @@
+  trait slot QName(PackageNamespace("", "#0"), "currency") type QName(PackageNamespace("", "#0"), "int") end

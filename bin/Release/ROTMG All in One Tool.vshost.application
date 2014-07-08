@@ -4,17 +4,18 @@
   <description asmv2:publisher="Windows User" asmv2:product="ROTMG All in One Tool" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.0" profile="Client" supportedRuntime="4.0.30319" />
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ROTMG All in One Tool.exe.manifest" size="4909">
+    <dependentAssembly dependencyType="install" codebase="ROTMG All in One Tool.exe.manifest" size="4537">
       <assemblyIdentity name="ROTMG All in One Tool.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>lXjOGwB+QrecTOCrpWsqkksOK7U=</dsig:DigestValue>
+        <dsig:DigestValue>1SBuKrWTL6H0iQstRoEzPwxnJA4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

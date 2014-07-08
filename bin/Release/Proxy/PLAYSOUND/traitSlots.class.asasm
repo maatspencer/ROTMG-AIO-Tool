@@ -1,0 +1,2 @@
+  trait slot QName(PackageNamespace("", "#0"), "ownerId_") type QName(PackageNamespace("", "#0"), "int") end
+  trait slot QName(PackageNamespace("", "#0"), "soundId_") type QName(PackageNamespace("", "#0"), "int") end

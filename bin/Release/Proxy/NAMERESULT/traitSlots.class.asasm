@@ -1,0 +1,2 @@
+  trait slot QName(PackageNamespace("", "#0"), "success_") type QName(PackageNamespace("", "#0"), "Boolean") end
+  trait slot QName(PackageNamespace("", "#0"), "errorText_") type QName(PackageNamespace("", "#0"), "String") end

@@ -1,0 +1,2 @@
+  trait slot QName(PackageNamespace("", "#0"), "conditionEffect_") type QName(PackageNamespace("", "#0"), "uint") end
+  trait slot QName(PackageNamespace("", "#0"), "conditionDuration_") type QName(PackageNamespace("", "#0"), "Number") end

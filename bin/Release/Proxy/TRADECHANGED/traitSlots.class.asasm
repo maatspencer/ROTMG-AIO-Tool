@@ -1,0 +1,1 @@
+  trait slot QName(PackageNamespace("", "#0"), "offer_") type TypeName(QName(PackageNamespace("__AS3__.vec"), "Vector")<QName(PackageNamespace("", "#0"), "Boolean")>) end
