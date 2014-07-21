@@ -17,6 +17,8 @@
 x64/
 build/
 [Oo]bj/
+*.vshost
+*.exe.manifest
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
