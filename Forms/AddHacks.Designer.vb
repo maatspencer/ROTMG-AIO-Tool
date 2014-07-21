@@ -142,7 +142,7 @@ Partial Class AddHacks
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Items.AddRange(New Object() {"Connect to Production", "Force Low Quality", "No Quest Delay", "FPS Cap to 60", "JNoob's Safe Walk Hack", "AutoNexus (30%)", "Disable Confuse", "Disable Drunk", "Disable Blind", "Disable Hallucinating", "Disable Unstable", "Disable Darkness", "SW Tile Hack", "Disable Necromancer Particles", "HP Bars", "SW No Slow", "SW Speed Hack", "SW Odom Style", "Remove Loading Screen", "Spammable Notifications", "No Ally Projectiles", "Round Net Jitter", "Recon V3", "Add Proxy Server"})
+        Me.ListBox1.Items.AddRange(New Object() {"Connect to Production", "Force Low Quality", "No Quest Delay", "FPS Cap to 60", "JNoob's Safe Walk Hack", "AutoNexus (30%)", "Disable Confuse", "Disable Drunk", "Disable Blind", "Disable Hallucinating", "Disable Unstable", "Disable Darkness", "SW Tile Hack", "Disable Necromancer Particles", "HP Bars", "SW No Slow", "SW Speed Hack", "SW Odom Style", "Remove Loading Screen", "Spammable Notifications", "No Ally Projectiles", "Round Net Jitter", "Recon V3", "Add Proxy Server", "Disable Google Analytics"})
         Me.ListBox1.Location = New System.Drawing.Point(122, 57)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended

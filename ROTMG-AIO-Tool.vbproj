@@ -168,7 +168,7 @@
     <Compile Include="Hacks\fpsCap.vb" />
     <Compile Include="Hacks\Empty\friendlist.vb" />
     <Compile Include="Hacks\Empty\fullscreen.vb" />
-    <Compile Include="Hacks\Empty\googleAnalytics.vb" />
+    <Compile Include="Hacks\googleAnalytics.vb" />
     <Compile Include="Hacks\hpBars.vb" />
     <Compile Include="Hacks\Tools\hackVariables.vb" />
     <Compile Include="Hacks\Tools\listUtility.vb" />

@@ -9,7 +9,7 @@ Public Class AddHacks
 
     ' Mod information Array
     ' File , Line , Length
-    Dim Hacks As Integer = 24
+    Dim Hacks As Integer = 25
 
     ' /mods folder
     Public Mods As Integer
@@ -145,6 +145,7 @@ Public Class AddHacks
             debuffs.addHallucinating()
             debuffs.addUnstable()
             debuffs.addDarkness()
+            googleAnalytics.Add()
             forceLQ.Add()
             hpBars.Add()
             localHost.Add()
