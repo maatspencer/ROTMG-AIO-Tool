@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ROTMG All in One Tool.exe" size="4613120">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ROTMG All in One Tool.exe" size="4612096">
       <assemblyIdentity name="ROTMG All in One Tool" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>lTMC6o8F+L/EtmwNlorQAL53124=</dsig:DigestValue>
+        <dsig:DigestValue>TgzwB+buLP7sWGI6OvU8TJZ5gQY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

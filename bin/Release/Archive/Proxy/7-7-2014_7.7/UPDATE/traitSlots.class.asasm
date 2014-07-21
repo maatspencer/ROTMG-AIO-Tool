@@ -1,3 +1,0 @@
-  trait slot QName(PackageNamespace("", "#0"), "tiles_") type TypeName(QName(PackageNamespace("__AS3__.vec"), "Vector")<QName(PackageNamespace("_-0YH"), "_-0Qx")>) end
-  trait slot QName(PackageNamespace("", "#0"), "newObjs_") type TypeName(QName(PackageNamespace("__AS3__.vec"), "Vector")<QName(PackageNamespace("_-0YH"), "_-HR")>) end
-  trait slot QName(PackageNamespace("", "#0"), "drops_") type TypeName(QName(PackageNamespace("__AS3__.vec"), "Vector")<QName(PackageNamespace("", "#0"), "int")>) end

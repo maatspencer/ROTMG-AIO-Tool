@@ -1,2 +1,0 @@
-  trait slot QName(PackageNamespace("", "#0"), "filename_") type QName(PackageNamespace("", "#0"), "String") end
-  trait slot QName(PackageNamespace("", "#0"), "file_") type QName(PackageNamespace("", "#0"), "String") end

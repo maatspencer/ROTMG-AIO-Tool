@@ -1,3 +1,0 @@
-  trait slot QName(PackageNamespace("", "#0"), "accountListId_") type QName(PackageNamespace("", "#0"), "int") end
-  trait slot QName(PackageNamespace("", "#0"), "accountIds_") type TypeName(QName(PackageNamespace("__AS3__.vec"), "Vector")<QName(PackageNamespace("", "#0"), "String")>) end
-  trait slot QName(PackageNamespace("", "#0"), "lockAction_") type QName(PackageNamespace("", "#0"), "int") value Integer(-1) end

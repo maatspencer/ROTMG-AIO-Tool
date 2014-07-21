@@ -105,7 +105,7 @@ Public Class safewalk
 
         ' Fill Hacks Array
         hackFile = File.AppendText(HackTemp)
-        Dim Length As Integer = File.ReadAllLines(Folder & "\lavawalls.txt").Length
+                Dim Length As Integer = File.ReadAllLines(Folder & "\safeWalk.txt").Length
         hackFile.WriteLine("com\company\assembleegameclient\objects\Player.class.asasm" & "," & GetSquare + 3 & "," & Length)
         hackFile.Flush()
         hackFile.Close()

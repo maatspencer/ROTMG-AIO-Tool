@@ -29,7 +29,7 @@ Public Class Coding
             Dim version = wc.DownloadString("http://www.realmofthemadgod.com/version.txt")
             Dim swf = "http://www.realmofthemadgod.com/AssembleeGameClient" + version + ".swf"
             wc.DownloadFile(swf, Application.StartupPath & "\Clients\Fresh_Client_" & version & ".swf")
-            MessageBox.Show("You now have a current assembly game client!")
+            TextBox2.Text = Application.StartupPath & "\Clients\Fresh_Client_" & version & ".swf"
         End Using
     End Sub
     ' Decompile
@@ -39,6 +39,8 @@ Public Class Coding
         My.Computer.FileSystem.CopyDirectory(Application.StartupPath & "\RABCDasm", Folder, True)
         My.Computer.FileSystem.CopyFile(TextBox2.Text, Folder & "\client.swf", True)
         decompile.start(Folder)
+
+        deobfuscate.Deobf(Folder)
 
         Me.Cursor = Cursors.Default
         MessageBox.Show("Your Source has been decompiled!")

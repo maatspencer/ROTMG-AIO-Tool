@@ -1,4 +1,0 @@
-  trait slot QName(PackageNamespace("", "#0"), "bulletId_") type QName(PackageNamespace("", "#0"), "uint") end
-  trait slot QName(PackageNamespace("", "#0"), "ownerId_") type QName(PackageNamespace("", "#0"), "int") end
-  trait slot QName(PackageNamespace("", "#0"), "containerType_") type QName(PackageNamespace("", "#0"), "int") end
-  trait slot QName(PackageNamespace("", "#0"), "angle_") type QName(PackageNamespace("", "#0"), "Number") end

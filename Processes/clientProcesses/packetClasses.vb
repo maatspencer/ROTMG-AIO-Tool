@@ -5,7 +5,10 @@ Imports AIO.hackVariables.Vars
 Public Class packetClasses
     Public Shared Sub find(location As String)
         'Find the smaller of the two packet classes
-        If System.IO.File.ReadAllLines(location & "\results3.txt")(0).Length > System.IO.File.ReadAllLines(location & "\results3.txt")(1).Length Then
+        Dim file1 As String = location & "\" & File.ReadAllLines(location & "/results3.txt")(0)
+        Dim file2 As String = location & "\" & File.ReadAllLines(location & "/results3.txt")(1)
+
+        If File.ReadAllLines(file1).Length > File.ReadAllLines(file2).Length Then
             myFile = System.IO.File.ReadAllLines(location & "\results3.txt")(0)
         Else
             myFile = System.IO.File.ReadAllLines(location & "\results3.txt")(1)

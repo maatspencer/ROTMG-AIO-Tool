@@ -1,6 +1,0 @@
-  trait slot QName(PackageNamespace("", "#0"), "targetId_") type QName(PackageNamespace("", "#0"), "int") end
-  trait slot QName(PackageNamespace("", "#0"), "effects_") type TypeName(QName(PackageNamespace("__AS3__.vec"), "Vector")<QName(PackageNamespace("", "#0"), "uint")>) end
-  trait slot QName(PackageNamespace("", "#0"), "damageAmount_") type QName(PackageNamespace("", "#0"), "int") end
-  trait slot QName(PackageNamespace("", "#0"), "kill_") type QName(PackageNamespace("", "#0"), "Boolean") end
-  trait slot QName(PackageNamespace("", "#0"), "bulletId_") type QName(PackageNamespace("", "#0"), "uint") end
-  trait slot QName(PackageNamespace("", "#0"), "objectId_") type QName(PackageNamespace("", "#0"), "int") end

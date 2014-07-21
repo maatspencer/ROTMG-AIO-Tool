@@ -9,7 +9,7 @@ Public Class AddHacks
 
     ' Mod information Array
     ' File , Line , Length
-    Dim Hacks As Integer = 25
+    Dim Hacks As Integer = 24
 
     ' /mods folder
     Public Mods As Integer
@@ -37,7 +37,7 @@ Public Class AddHacks
 
         ' Modify items from settings
         ListBox1.Items.Item(3) = "FPS Cap to " & My.Settings.FPS
-        ListBox1.Items.Item(6) = "Auto-Nexus(" & My.Settings.Nexus & "%)"
+        ListBox1.Items.Item(5) = "Auto-Nexus(" & My.Settings.Nexus & "%)"
 
         ' Add Mod Selector hacks to listbox
         LoadMods()
@@ -116,6 +116,9 @@ Public Class AddHacks
             labelChange("Decompiling Client...")
             decompile.start(Folder)
 
+            labelChange("Removing Junk Code...")
+            deobfuscate.Deobf(Folder)
+
             ' Get Version Number
             labelChange("Getting the Client Version...")
             version = getVersion.GetVersion
@@ -149,7 +152,6 @@ Public Class AddHacks
             netJitter.Add()
             noLoading.Add()
             noQuestDelay.Add()
-            'numericalHpMpFame.Add()
             production.Add()
             reconV3.Add()
             safewalk.Add()

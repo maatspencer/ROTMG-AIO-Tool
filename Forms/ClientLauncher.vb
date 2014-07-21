@@ -21,7 +21,7 @@
 
     End Sub
 
-    Private Sub Button8_Click(sender As System.Object, e As System.EventArgs)
+    Private Sub Button8_Click(sender As System.Object, e As System.EventArgs) Handles Button8.Click
         ItemSelect.Show()
         Me.Close()
     End Sub

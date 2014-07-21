@@ -1,2 +1,0 @@
-  trait slot QName(PackageNamespace("", "#0"), "charId_") type QName(PackageNamespace("", "#0"), "int") end
-  trait slot QName(PackageNamespace("", "#0"), "isFromArena_") type QName(PackageNamespace("", "#0"), "Boolean") end

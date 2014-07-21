@@ -1,6 +1,0 @@
-  trait slot QName(PackageNamespace("", "#0"), "pool") type QName(PackageNamespace("_-0qK"), "_-1nx") end
-  trait slot QName(PackageNamespace("", "#0"), "_-0cl") type QName(PackageNamespace("_-0qK"), "_-1u-") end
-  trait slot QName(PackageNamespace("", "#0"), "next") type QName(PackageNamespace("_-0qK"), "_-1u-") end
-  trait slot QName(PrivateNamespace("*", "_-0qK:_-1u-/instance"), "_-0qA") type QName(PackageNamespace("", "#0"), "Boolean") end
-  trait slot QName(PackageNamespace("", "#0"), "id") type QName(PackageNamespace("", "#0"), "uint") end
-  trait slot QName(PackageNamespace("", "#0"), "callback") type QName(PackageNamespace("", "#0"), "Function") end

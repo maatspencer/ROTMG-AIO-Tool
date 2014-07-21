@@ -1,7 +1,0 @@
-  trait slot QName(PackageNamespace("", "#0"), "name_") type QName(PackageNamespace("", "#0"), "String") end
-  trait slot QName(PackageNamespace("", "#0"), "host_") type QName(PackageNamespace("", "#0"), "String") end
-  trait slot QName(PackageNamespace("", "#0"), "port_") type QName(PackageNamespace("", "#0"), "int") end
-  trait slot QName(PackageNamespace("", "#0"), "gameId_") type QName(PackageNamespace("", "#0"), "int") end
-  trait slot QName(PackageNamespace("", "#0"), "keyTime_") type QName(PackageNamespace("", "#0"), "int") end
-  trait slot QName(PackageNamespace("", "#0"), "key_") type QName(PackageNamespace("flash.utils"), "ByteArray") end
-  trait slot QName(PackageNamespace("", "#0"), "isFromArena_") type QName(PackageNamespace("", "#0"), "Boolean") end

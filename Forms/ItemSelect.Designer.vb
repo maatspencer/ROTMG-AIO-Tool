@@ -44,10 +44,10 @@ Partial Class ItemSelect
         Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button3.Location = New System.Drawing.Point(251, 21)
+        Me.Button3.Location = New System.Drawing.Point(269, 21)
         Me.Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(100, 28)
+        Me.Button3.Size = New System.Drawing.Size(120, 28)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Coding"
         Me.Button3.UseVisualStyleBackColor = False
@@ -58,7 +58,7 @@ Partial Class ItemSelect
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(393, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(404, 24)
         Me.MenuStrip1.TabIndex = 3
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -103,10 +103,10 @@ Partial Class ItemSelect
         Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button7.Location = New System.Drawing.Point(143, 21)
+        Me.Button7.Location = New System.Drawing.Point(141, 21)
         Me.Button7.Margin = New System.Windows.Forms.Padding(4)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(100, 28)
+        Me.Button7.Size = New System.Drawing.Size(120, 28)
         Me.Button7.TabIndex = 5
         Me.Button7.Text = "Play"
         Me.Button7.UseVisualStyleBackColor = False
@@ -119,10 +119,10 @@ Partial Class ItemSelect
         Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button9.Location = New System.Drawing.Point(143, 57)
+        Me.Button9.Location = New System.Drawing.Point(141, 57)
         Me.Button9.Margin = New System.Windows.Forms.Padding(4)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(100, 28)
+        Me.Button9.Size = New System.Drawing.Size(120, 28)
         Me.Button9.TabIndex = 8
         Me.Button9.Text = "Add Hacks"
         Me.Button9.UseVisualStyleBackColor = False
@@ -135,12 +135,12 @@ Partial Class ItemSelect
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button1.Location = New System.Drawing.Point(35, 21)
+        Me.Button1.Location = New System.Drawing.Point(13, 21)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(100, 28)
+        Me.Button1.Size = New System.Drawing.Size(120, 28)
         Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Proxy"
+        Me.Button1.Text = "Proxy Updater"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'ItemSelect
@@ -149,7 +149,7 @@ Partial Class ItemSelect
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLight
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(393, 92)
+        Me.ClientSize = New System.Drawing.Size(404, 92)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button7)

@@ -103,7 +103,7 @@ Partial Class Coding
         Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button5.Location = New System.Drawing.Point(238, 120)
+        Me.Button5.Location = New System.Drawing.Point(238, 108)
         Me.Button5.Margin = New System.Windows.Forms.Padding(4)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(107, 28)
@@ -120,7 +120,7 @@ Partial Class Coding
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button6.Location = New System.Drawing.Point(397, 120)
+        Me.Button6.Location = New System.Drawing.Point(397, 108)
         Me.Button6.Margin = New System.Windows.Forms.Padding(4)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(131, 28)
@@ -150,7 +150,7 @@ Partial Class Coding
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(215, 28)
         Me.Button7.TabIndex = 8
-        Me.Button7.Text = "Choose an SWF"
+        Me.Button7.Text = "Choose a SWF"
         Me.Button7.UseVisualStyleBackColor = False
         '
         'Button8

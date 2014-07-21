@@ -1,2 +1,0 @@
-  trait slot QName(PackageNamespace("", "#0"), "classType") type QName(PackageNamespace("", "#0"), "int") end
-  trait slot QName(PackageNamespace("", "#0"), "skinType") type QName(PackageNamespace("", "#0"), "int") end

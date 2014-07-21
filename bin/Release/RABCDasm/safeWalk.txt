@@ -1,4 +1,4 @@
- #set mouseClass "Change1" 
+ #set mouseClass "com.company.assembleegameclient.game:Change1" 
  #set mouseClicked "Change2" 
                                                                          
       getlex              QName(PackageNamespace("", "#0"), "map_")
@@ -10,8 +10,8 @@
       getlocal3
       getproperty        QName(PackageNamespace(""), "props_")     
       getproperty        QName(PackageNamespace(""), "maxDamage_")
-      pushbyte            0                                              
-      ifeq             SKIPNOWALK                                                  
+      pushbyte           0                                              
+      ifeq               SKIPNOWALK                                                  
                                     
       getlocal3                                                          
       getproperty        QName(PackageNamespace(""), "obj_")      
